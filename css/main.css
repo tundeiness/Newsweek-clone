@@ -11,8 +11,31 @@ body{
 }
 
 .test {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
+
+/* STYLING THE HEADER */
+.a-test {
+  /* background-color: black; */
+}
+
+a svg {
+  fill: #fff;;
+}
+
+ .d-font {
+  /* font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-stretch: normal; */
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
 
 
 
