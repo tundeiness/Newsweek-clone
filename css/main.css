@@ -17,10 +17,13 @@ body{
 /* STYLING THE HEADER */
 .a-test {
   /* background-color: black; */
+  margin-left:-20px;
 }
 
 a svg {
-  fill: #fff;;
+  fill: #fff;
+  width: 132px;
+  height: 20px;
 }
 
  .d-font {
@@ -35,6 +38,29 @@ a svg {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* CONTENT */
+
+.content {
+
+}
+
+.left-content {
+
+}
+
+.middle-content {
+
+}
+
+.right-content {
+
+}
+
+/* OTHER CONCERNS */
+
+.other-concerns {
+
+}
 
 
 
