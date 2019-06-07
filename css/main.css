@@ -7,7 +7,7 @@ body{
 }
 
 .d-flex {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .test {
@@ -44,20 +44,35 @@ a svg {
 
 }
 
-.left-content {
+.main-concerns {
+  width: 100%;
+}
 
+.left-content {
+ background-color: blue;
+ width: 100%;
+ /* border: 1px solid black; */
 }
 
 .four-items {
 
 }
 
-.middle-content {
+picture {
+ border: 1px solid white;
+}
 
+.middle-content {
+  background-color: blueviolet;
+  width: 100%;
 }
 
 .top-story {
 
+}
+
+.card {
+  border-radius: 0;
 }
 
 .more-story {
@@ -69,7 +84,9 @@ a svg {
 }
 
 .right-content {
-
+  background-color: green;
+ height: 50vh;
+ width: 100%;
 }
 
 .opinion{
