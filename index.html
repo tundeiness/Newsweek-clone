@@ -64,8 +64,8 @@
   <div class="main-concerns d-flex flex-sm-column flex-sm-wrap ">
       <div class="left-content order-sm-1 ">
         <div class="four-items px-sm-4">
-            <div class="card" style="width:35.1rem">
-                <img class="card-img-top" src="https://d.newsweek.com/en/full/1501528/trump-ted-cruz-texas.jpg?w=767&h=512&f=0e1fa51a18d86da3b915a408f7a6db4a" alt="Card image cap">
+            <div class="card rounded-0" style="width:35.1rem">
+                <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1501528/trump-ted-cruz-texas.jpg?w=767&h=512&f=0e1fa51a18d86da3b915a408f7a6db4a" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -80,9 +80,10 @@
       <div class="middle-content order-sm-0 ">
         <div class="top-story mt-sm-4 px-sm-4">
         <h4 class="card-title">Top story</h4>
-          <div class="card" style="width:35.1rem">
-            <div class="category position-absolute"><a href="/news">News</a></div>
-            <img class="card-img-top  position-relative" src="https://d.newsweek.com/en/full/1501735/trump-china-meeting-white-house.jpg?w=591&h=364&l=50&t=40&f=89ae73d0cbdb8d257a00e7f4a53eb594" alt="Card image cap">
+          <div class="card rounded-0" style="width:35.1rem">
+            <div class="category position-absolute"><a class="d-inline-block
+            text-danger font-weight-bold text-uppercase" href="#">News</a></div>
+            <img class="card-img-top  position-relative rounded-0 " src="https://d.newsweek.com/en/full/1501735/trump-china-meeting-white-house.jpg?w=591&h=364&l=50&t=40&f=89ae73d0cbdb8d257a00e7f4a53eb594" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -90,8 +91,24 @@
             </div>
           </div>
         </div>
-        <div class="more-story">
-          <div class="story"></div>
+        <div class="more-story d-flex px-sm-4">
+          <div class="story d-flex flex-row justify-content-between py-2
+          border border-top-0 border-right-0 border-left-0 ">
+            <div class="image flex-sm-grow-1">
+              <a href="#">
+                <picture width="258" height="90"  >
+                   <img src="https://d.newsweek.com/en/full/1501831/nasa-mars-helicopter.jpg?w=300&h=200&f=753c060de61b26935513e389eaadd7f2" title="NASA Mars helicopter" width="135" height="90" class="mapping-sm">
+                </picture>
+                </a>
+            </div>
+            <div class="text-wrap ml-4">
+            <h4 class="image-heading">
+              <a href="#">NASA's Mars Helicopter Passes Crucial Testing With Flying Colors</a>
+            </h4>
+            <div class="summary">The helicopter was designed to demonstrate the
+            viability of controlled, powered flight on other planets.</div>
+          </div>
+          </div>
           <div class="story"></div>
           <div class="story"></div>
           <div class="story"></div>
@@ -103,7 +120,15 @@
       </div>
       <div class="right-content order-sm-2 ">
         <div class="opinion">
-          <div class="op-ed"></div>
+          <div class="op-ed">
+            <div class="media border p-3">
+              <img src="img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+              <div class="media-body">
+                <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+          </div>
           <div class="op-ed"></div>
           <div class="op-ed"></div>
           <div class="op-ed"></div>
