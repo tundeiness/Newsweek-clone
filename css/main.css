@@ -237,13 +237,13 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .right-content {
-  background-color: green;
- height: 50vh;
+  /* background-color: green; */
+ /* height: 50vh; */
  width: 100%;
 }
 
 .opinion{
- border: 1px solid black;
+ /* border: 1px solid black; */
 }
 
 .op-ed {
