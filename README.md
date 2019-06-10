@@ -1,5 +1,5 @@
 # Newsweek-clone
-Cloning Newsweek website using Twitter’s Bootstrap framework.
+Cloning Newsweek Magazine website using Twitter’s Bootstrap framework.
 
 This projects shows our implementation and the mastery of media queries and other
 responsive web design concepts in building a tech focused magazine named
