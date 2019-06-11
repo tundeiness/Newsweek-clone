@@ -363,14 +363,57 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .icon-wrap {
-
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 19px;
+  font-family: "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .icon {
     width: 29px;
     height: 28px;
-    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-    margin-right: 10px;
+    background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+}
+
+
+.rhs-category-1 {
+  color: #fff;
+  background-color: #f72210;
+  font-size:16px;
+  font-weight: bold;
+  line-height: 26px;
+  font-family: "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+.rhs-category-2 {
+  color: #f72210;
+  font-size:16px;
+  font-weight: bold;
+  line-height: 26px;
+  font-family: "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+.rhs-text {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    font-family: "Roboto Condensed",sans-serif;
+
+}
+
+.rhs-text a:link,
+.rhs-text a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.rhs-text a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 .bottom {
