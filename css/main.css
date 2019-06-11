@@ -282,8 +282,25 @@ font-family: 'Roboto Condensed', sans-serif;
   margin-top: 4px;
 }
 
+
 .latest {
 
+}
+
+.latest-heading {
+  font-size: 17px;
+  line-height: 21px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.latest-heading a:link,
+.latest-heading a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.latest-heading a:hover {
+  color: #f72210;
 }
 
 .late-news {
