@@ -317,12 +317,60 @@ font-family: 'Roboto Condensed', sans-serif;
 
 }
 
+
 .lhs {
 
 }
 
-.rhs {
+.issue {
+    line-height: 33px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background-color: rgba(255,255,255,.9);
+    bottom: 3rem;
+    left: 17px;
+    z-index: 3;
+}
 
+.issue:link,
+.issue:visited {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.issue-link:link,
+.issue-link:visited {
+    background-color: #f4f5f6;
+    color: black;
+    text-align: center;
+    padding: 10px 10px 10px 12px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+}
+
+.issue-link:hover {
+  text-decoration: none;
+  background-color: #e1e5e7;
+}
+
+.rhsd {
+
+}
+
+.icon-wrap {
+
+}
+
+.icon {
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
 }
 
 .bottom {
