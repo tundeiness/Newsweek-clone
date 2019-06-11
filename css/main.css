@@ -420,9 +420,62 @@ font-family: 'Roboto Condensed', sans-serif;
 
 }
 
+.bottom-category {
+top: 19.9rem;
+left: 0;
+z-index: 2;
+background: #f72210;
+font-size: 16px;
+line-height: 33px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.bottom-category a:link,
+.bottom-category a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-body-2 {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-link-2:link,
+.card-link-2:visited {
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.card-link-2:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+ }
+
 .editor-pick {
 
 }
+
+.editor {
+top: 20.1rem;
+left: 0;
+z-index: 2;
+background: rgba(255, 255, 255, .9);
+font-size: 17px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.editor a:link,
+.editor a:visited {
+  text-decoration: none;
+  color: #f72210;
+}
+
+
 
 .title {
 
