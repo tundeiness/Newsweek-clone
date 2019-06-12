@@ -570,6 +570,21 @@ font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
 }
 
+
+.block-title-2 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.block-link-2:link,
+.block-link-2:visited {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .first-row {
 
 }
