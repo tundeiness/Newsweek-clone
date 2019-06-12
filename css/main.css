@@ -362,7 +362,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 }
 
-.icon-wrap {
+.icon-wrap, .title, .slide-title, .slideshow-title {
   font-weight: bold;
   font-size: 19px;
   line-height: 19px;
@@ -476,6 +476,17 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 
+.test {
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
+    color: #e9212e;
+}
+
 
 .title {
 
@@ -492,6 +503,42 @@ font-family: 'Roboto Condensed', sans-serif;
 .slideshows {
 
 }
+
+.slideshow-editor {
+  width: 70px;
+  height: 52px;
+  top: 19rem;
+  left: 0;
+  z-index: 2;
+  font-size: 20px;
+  line-height: 45px;
+  text-indent: 2px;
+  text-align: center;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+  .slideshow-editor a:link,
+  .slideshow-editor a:visited {
+    text-decoration: none;
+    color: #e9212e;
+  }
+
+  .card-link-slide:link,
+  .card-link-slide:visited {
+    color: #000;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .card-link-slide:hover {
+    text-decoration: underline;
+    text-decoration-color: #e9212e;
+
+  }
+
 
 .slide-title {
 
