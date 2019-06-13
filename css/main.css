@@ -686,5 +686,117 @@ z-index: 3;
   background: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif") center center / cover no-repeat;
 }
 
+/* STYLING THE FOOTER */
+
+.footer-main {
+    border-top: 2px solid #f4f5f6;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
+
+.brand-link svg {
+    /* display: block; */
+    width: 236px;
+    height: 36px;
+    /* margin-right: 15px;
+    margin-bottom: 12px; */
+    fill: #f72210;
+}
+
+
+.footer-copyright {
+  font-family: 'Arial','Helvetica',sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  /* margin-bottom: 12px; */
+}
+
+.footer-social {
+  /* color: #666; */
+    /* margin-bottom: 12px; */
+}
+
+
+.footer-li:not(:first-child) {
+  padding-left: .4rem;
+}
+
+.social-facebook, .social-twitter, .social-instagram, .social-linkedin {
+  text-decoration: none;
+  color: #666;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.social-tumblr {
+  text-decoration: none;
+  color: #666;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.social-twitter:hover, .social-linkedin:hover {
+  color: dodgerblue;
+}
+
+.social-tumblr:hover {
+  color: #333;
+}
+
+.social-instagram:hover {
+  color: blue;
+}
+
+.footer-links {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+  border-top-color: #d9d9d9;
+  border-top-style: solid;
+}
+
+.link-menu li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.link-menu li a:link,
+.link-menu li a:visited{
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-family: 'Arial','Helvetica',sans-serif;
+}
+
+
+.link-menu li a:hover{
+  color: #000;
+}
+
+.label {
+ color: #666;
+ font-size: 14px;
+ font-weight: bold;
+ font-family: 'Arial','Helvetica',sans-serif;
+}
+
+.edition-menu li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.edition-menu li a:link,
+.edition-menu li a:visited {
+  color: #666;
+ font-size: 14px;
+ font-family: 'Arial','Helvetica',sans-serif;
+}
