@@ -2,6 +2,8 @@
 
 body{
   /* font: bold 14px/14px "Roboto Condensed",sans-serif; */
+  /* max-width: 1310px; */
+  /* margin: 0 auto; */
 }
 
 .container-fluid {
@@ -680,6 +682,7 @@ z-index: 3;
 }
 
 .letter-img {
+  height: 160px;
   background: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif") center center / cover no-repeat;
 }
 
