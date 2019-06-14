@@ -6,7 +6,7 @@ body{
   /* margin: 0 auto; */
 }
 
-.container-fluid {
+.navigate {
   background-color: red;
 }
 
@@ -31,12 +31,6 @@ a svg {
 }
 
  .d-font {
-  /* font-style: normal;
-  font-variant-ligatures: normal;
-  font-variant-caps: normal;
-  font-variant-numeric: normal;
-  font-variant-east-asian: normal;
-  font-stretch: normal; */
   font-size: 14px;
   line-height: 14px;
 }
@@ -48,12 +42,12 @@ a svg {
 }
 
 .main-concerns {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .left-content {
- background-color: blue;
- width: 100%;
+ /* background-color: blue; */
+ /* width: 100%; */
  /* border: 1px solid black; */
 }
 
@@ -63,11 +57,10 @@ a svg {
 
 picture {
  /* border: 1px solid white; */
+ /* width:135px;
+ height: 90px; */
 }
 
-.left-content {
-
-}
 
 .featured-story {
 
@@ -121,14 +114,14 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .middle-content {
-  background-color: blueviolet;
-  width: 100%;
+  /* background-color: blueviolet; */
+  /* width: 100%; */
 }
 
 
 
 .top-story {
- border: 1px solid red;
+ /* border: 1px solid red; */
 }
 
 .card-title, .more-title {
@@ -193,19 +186,11 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .more-story {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-/* .more-title {
-  color: rgba(3,3,3,.4);
-  font-family: 'Roboto Condensed', sans-serif;
-  line-height: 16px;
-  font-size: 16px;
-} */
-
 .story {
-  /* border: 1px solid red; */
-  /* border-top: 1px solid #ddd; */
+
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: rgb(221, 221, 221);
@@ -228,6 +213,8 @@ font-family: 'Roboto Condensed', sans-serif;
   text-decoration: underline;
   text-decoration-color: firebrick;
 }
+
+
 
 .summary {
   color: #333;
@@ -475,18 +462,6 @@ font-family: 'Roboto Condensed', sans-serif;
 .editor a:visited {
   text-decoration: none;
   color: #f72210;
-}
-
-
-.test {
-
-    /* font-weight: bold;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-    background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
-    color: #e9212e; */
 }
 
 
