@@ -308,7 +308,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .lhs {
-
+/* margin-left: -2.5rem; */
 }
 
 .issue {
@@ -318,7 +318,7 @@ font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     padding: 0 10px;
     background-color: rgba(255,255,255,.9);
-    bottom: 3rem;
+    bottom: 8rem;
     left: 17px;
     z-index: 3;
 }
@@ -405,13 +405,17 @@ font-family: 'Roboto Condensed', sans-serif;
   text-decoration-color: #f72210;
 }
 
+.image-link {
+  max-width: 100%;
+}
+
 .bottom {
 
 }
 
 .bottom-category {
-top: 19.9rem;
-left: 0;
+top: 7.8rem;
+left: .9rem;
 z-index: 2;
 background: #f72210;
 font-size: 16px;
