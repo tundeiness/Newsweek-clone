@@ -587,7 +587,8 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .img-t {
- 
+ max-width: 100%;
+ overflow: hidden;
 }
 
 
