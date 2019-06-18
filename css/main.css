@@ -334,7 +334,7 @@ font-family: 'Roboto Condensed', sans-serif;
     background-color: #f4f5f6;
     color: black;
     text-align: center;
-    padding: 10px 10px 10px 12px;
+    /* padding: .8rem 4rem; */
     font-size: 18px;
     line-height: 18px;
     font-weight: bold;
