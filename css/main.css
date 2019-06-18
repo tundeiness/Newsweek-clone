@@ -789,3 +789,7 @@ z-index: 3;
   color: #000;
  text-decoration: none;
 }
+
+.edition-menu li {
+  /* border-right: 1px solid grey; */
+}
