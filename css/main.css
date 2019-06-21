@@ -936,7 +936,7 @@ z-index: 3;
   .nav-bottom::before {
     position: absolute;
     top: 0;
-    right: 1rem;
+    right: 0;
     content: "";
     display: block;
     width: 5rem;
