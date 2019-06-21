@@ -1,17 +1,15 @@
 # Newsweek-clone
-Cloning Newsweek Magazine website using Twitter’s Bootstrap framework.
-
-This projects shows our implementation and the mastery of media queries and other
-responsive web design concepts in building a tech focused magazine named
-[Newsweek](https://www.newsweek.com/). The project is also fully responsive.
+Using Twitter Bootstrap framework to make a clone of the
+[Newsweek Magazine](https://www.newsweek.com/) website. The project is also fully responsive.
 
 
 ## Author
-This projects was executed by **Tunde Oretade**.
-Meet Tunde here on  [Github](https://github.com/tundeiness/) and,  here on [LinkedIn](https://www.linkedin.com/in/tunde-oretade/)
+This project was executed by **Tunde Oretade**.
+Meet Tunde here on  [Github](https://github.com/tundeiness/),  here on
+[LinkedIn](https://www.linkedin.com/in/tunde-oretade/) and here on [Codepen](https://codepen.io/highness/)
 
 ## Technologies & Framework used.
-HTML, CSS & Twitter Bootstrap
+HTML, CSS & Twitter Bootstrap.
 
 
 ## Setup
@@ -23,4 +21,4 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://tundeiness.github.io/the-next-web-clone/)
+[here](https://rawcdn.githack.com/tundeiness/Newsweek-clone/a3187f627514a8df73a9f7dd7cf64df748d7f3eb/index.html)
