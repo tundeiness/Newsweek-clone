@@ -21,4 +21,4 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/tundeiness/Newsweek-clone/a3187f627514a8df73a9f7dd7cf64df748d7f3eb/index.html)
+[here](https://rawcdn.githack.com/tundeiness/Newsweek-clone/9ba31258c3174a24b9279c3a613efea7ed10a801/index.html)
