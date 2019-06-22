@@ -670,11 +670,6 @@ z-index: 3;
     padding-left: 2px ;
   }
 
-  .letter-img {
-    /* padding-top: 10px;
-    background: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif") center center / cover no-repeat; */
-  }
-
 
 }
 
@@ -689,10 +684,6 @@ z-index: 3;
 
   .subscribe {
     font-size: 14px;
-    /* padding-top: 2px !important;
-    padding-bottom: 1px !important; */
-    /* padding-right: 3px !important;
-    padding-left: 3px !important; */
   }
 
 }
@@ -701,20 +692,6 @@ z-index: 3;
 
   .img-wrap {
     margin-top: 4.8rem !important;
-  }
-
-  .sign-in {
-    /* font-size: 14px;
-    margin-right: .1rem;
-    padding-top: 3px !important; */
-  }
-
-  .subscribe {
-    /* font-size: 14px; */
-    /* padding-top: 2px !important;
-    padding-bottom: 1px !important; */
-    /* padding-right: 3px !important;
-    padding-left: 3px !important; */
   }
 
 }
