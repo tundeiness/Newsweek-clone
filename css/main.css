@@ -659,15 +659,40 @@ z-index: 3;
   .sign-in {
     font-size: 14px;
     margin-right: .1rem;
+    padding-top: 5px ;
+  }
+
+  .subscribe {
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-right: 2px ;
+    padding-left: 2px ;
+  }
+
+  .letter-img {
+    /* padding-top: 10px;
+    background: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif") center center / cover no-repeat; */
+  }
+
+
+}
+
+
+@media only screen and (min-width: 576px) {
+
+  .sign-in {
+    font-size: 14px;
+    margin-right: .1rem;
     padding-top: 3px !important;
   }
 
   .subscribe {
     font-size: 14px;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-    padding-right: 3px !important;
-    padding-left: 3px !important;
+    /* padding-top: 2px !important;
+    padding-bottom: 1px !important; */
+    /* padding-right: 3px !important;
+    padding-left: 3px !important; */
   }
 
 }
