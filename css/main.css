@@ -654,7 +654,23 @@ z-index: 3;
 
 
 /* MEDIA QUERIES */
+@media only screen and (min-width: 0px) {
 
+  .sign-in {
+    font-size: 14px;
+    margin-right: .1rem;
+    padding-top: 3px !important;
+  }
+
+  .subscribe {
+    font-size: 14px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+  }
+
+}
 
 @media only screen and (min-width: 992px) {
 

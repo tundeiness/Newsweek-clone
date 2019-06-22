@@ -20,19 +20,19 @@
 </head>
 <body>
   <header class="heading">
-      <nav class="navbar sticky-top navbar-dark  pt-0 px-sm-0">
+      <nav class="navbar sticky-top navbar-dark navbar-expand pt-0 px-sm-0">
         <div class="container-fluid navigate py-lg-2 px-lg-1" >
 
-              <div class="col-sm-4 d-md-none col-lg-3 d-sm-none d-lg-block">
+              <div class="d-none col-sm-4 d-md-none col-lg-3 d-sm-none d-lg-block">
                 <span class="date d-inline-block mt-lg-4">Tue, Jun 04, 2019</span>
               </div>
 
-              <div class="col-xs-4 col-sm-4 col-md-8 col-lg-6 d-flex
+              <div class="col-4 col-sm-4 col-md-8 col-lg-6 d-flex
               flex-lg-column  py-sm-2 logo">
 
                 <a href="#" class="logo-container text-center">
                     <img src="img/logo-big.png" alt="" class="logo-img
-                    d-xs-none
+                    d-none
                     d-sm-none
                     d-md-none
                     d-lg-inline-block" width="360"
@@ -41,7 +41,7 @@
 
                 <a href="" class="logo-container text-center">
                     <img src="img/logo-big.png" alt="" class="logo-img d-lg-none
-                    d-xs-block d-sm-block d-md-block"
+                    d-block d-sm-block d-md-block"
                     width="150" height="30">
                 </a>
 
@@ -52,17 +52,17 @@
                   </a> -->
               </div>
 
-              <div class="col-sm-6 col-md-4 col-lg-3  d-flex flex-lg-row
-              justify-content-end font-weight-bold d-font">
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3  d-flex flex-lg-row
+              justify-content-end font-weight-bold d-font ">
 
-                  <a class="d-sm-inline-block my-sm-2 text-white text-uppercase
+                  <a class="d-inline-block d-sm-inline-block my-sm-2 text-white text-uppercase
                   text-decoration-none pt-sm-1 mr-lg-2 sign-in" href="#">Sign
                   In</a>
 
-                  <a class="d-sm-inline-block mt-sm-1 mx-sm-1 px-sm-1 text-danger bg-white
+                  <a class="d-inline-block d-sm-inline-block mt-sm-1 mx-sm-1 px-sm-1 text-danger bg-white
                   text-uppercase  text-decoration-none " href="#">
-                  <p class="py-2 px-sm-2 px-lg-2 d-lg-inline-block subscribe"> Subscribe</p> <i class="fa
-                  fa-angle-right d-sm-none d-lg-inline-block arrw" aria-hidden="true"></i></a>
+                  <p class="py-0 py-sm-2 px-sm-2 px-lg-2 d-lg-inline-block subscribe"> Subscribe</p> <i class="fa
+                  fa-angle-right d-none d-sm-none d-lg-inline-block arrw" aria-hidden="true"></i></a>
 
               </div>
 
@@ -103,13 +103,13 @@
   </header>
 
 <!-- MAIN SECTION -->
-<div class="container-fluid">
+<main class="container-fluid">
   <div class="content row "> <!--row-->
-    <div class="main-concerns col-12 col-md-12 col-lg-8 d-flex  flex-sm-row
+    <div class="main-concerns col-12 col-sm-12 col-md-12 col-lg-8 d-flex  flex-sm-row
     flex-sm-wrap flex-md-row  order-md-0">
         <div class="left-content col-12 col-md-5 px-sm-0 px-lg-3 order-sm-0 ">
           <!-- FEATURED STORIES -->
-            <div class="featured-story mt-sm-4 mt-md-4 mb-sm-3  ">
+            <div class="featured-story mt-sm-4 mt-md-4 mb-sm-3 sticky-top  ">
                 <h4 class="card-title text-uppercase font-weight-bold ">Featured Stories</h4>
                   <div class="card rounded-0 border-0  pb-sm-2" >
                     <img class="card-img-top rounded-0 " src="https://d.newsweek.com/en/full/1502277/yolo-california-wildfire-northern-fire.png?w=767&h=512&f=2396ef3b5928055acd7f694c2cdff012" alt="Card image cap">
@@ -147,7 +147,7 @@
                             </li>
                           </ul>
                       </div>
-                    </div>
+                    </m>
 
 
                     <div class="card rounded-0 border-0" >
@@ -161,15 +161,15 @@
                               </li>
                             </ul>
                         </div>
-                      </div>
+                      </d>
             </div>
         </div>
 
           <!-- TOP STORY -->
 
-        <div class="middle-content col-12 col-md-7 px-sm-0 px-lg-3 ">
+        <div class="middle-content col-12 col-sm-12 col-md-7 px-sm-0 px-lg-3 ">
           <!-- TOP STORY -->
-          <div class="top-story d-flex flex-column mt-sm-4 mb-sm-3 px-sm-3">
+          <div class="top-story row d-flex flex-column mt-sm-4 mb-sm-3 px-sm-3">
           <h4 class="card-title text-uppercase font-weight-bold">Top story</h4>
             <div class="card rounded-0 border-0" >
 
@@ -1555,9 +1555,10 @@
     </div>
 
   </div>
+</main><!-- MAIN SECTION -->
 
       <!-- FOOTER -->
-      <div class="footer-content">
+  <footer class="footer-content">
       <div class="footer-main container-fluid">
 
           <div class="footer-branding d-flex  flex-sm-column  flex-lg-row justify-content-lg-between">
@@ -1701,10 +1702,10 @@
                       <a class=" pl-sm-1 pl-md-2" href="#">România</a>
                     </li>
                   </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+  </footer><!-- FOOTER -->
 </body>
 </html>
