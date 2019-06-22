@@ -6,7 +6,8 @@ Using Twitter Bootstrap framework to make a clone of the
 ## Author
 This project was executed by **Tunde Oretade**.
 Meet Tunde here on  [Github](https://github.com/tundeiness/),  here on
-[LinkedIn](https://www.linkedin.com/in/tunde-oretade/) and here on [Codepen](https://codepen.io/highness/)
+[LinkedIn](https://www.linkedin.com/in/tunde-oretade/) and check out some of my
+projects on [Codepen](https://codepen.io/highness/)
 
 ## Technologies & Framework used.
 HTML, CSS & Twitter Bootstrap.
